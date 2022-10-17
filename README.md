@@ -8,7 +8,7 @@ This action notarizes macOS applications or plug-ins. It does this by submitting
 
 ```yaml
 - name: "Notarize Release Build"
-  uses: BoundfoxStudios/xcode-notarize@v1
+  uses: BoundfoxStudios/action-xcode-notarize@v1
   with:
     product-path: "Export/YourApp.app"
     appstore-connect-username: ${{ secrets.NOTARIZATION_USERNAME }}
