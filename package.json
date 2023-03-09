@@ -19,19 +19,21 @@
     "Xcode"
   ],
   "author": "Manuel Rauber <info@boundfoxstudios.com>",
-  "contributors": ["Stefan Arentz <stefan@devbots.xyz>"],
+  "contributors": [
+    "Stefan Arentz <stefan@devbots.xyz>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BoundfoxStudios/action-xcode-notarize/issues"
   },
   "homepage": "https://github.com/BoundfoxStudios/action-xcode-notarize#readme",
   "dependencies": {
-    "@actions/core": "^1.2.5",
+    "@actions/core": "~1.10.0",
     "execa": "^4.0.3",
     "plist": "^3.0.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.24.1",
+    "@vercel/ncc": "~0.24.1",
     "eslint": "^7.4.0",
     "jest": "^26.4.2"
   }
